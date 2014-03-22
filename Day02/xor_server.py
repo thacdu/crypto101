@@ -6,9 +6,9 @@ from random import randint
 from keygen import key_gen
 from socket import *
 
-key = key_gen(randint(20, 100))
-prefix = key_gen(randint(10, 20))
-suffix = key_gen(randint(10, 20))
+key = key_gen(randint(10, 100))
+prefix = key_gen(randint(10, 50))
+suffix = key_gen(randint(10, 50))
 
 
 print 'Key: ' + key.encode('hex')

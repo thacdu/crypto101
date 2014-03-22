@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="xor_server.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="xor_server.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day02/xor_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+            <state line="10" column="30" selection-start="253" selection-end="253" vertical-scroll-proportion="0.26455027" vertical-offset="0" max-vertical-offset="760">
               <folding>
                 <element signature="e#43#80#0" expanded="true" />
               </folding>
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="otp_attack.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="otp_attack.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day02/otp_attack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.73544973" vertical-offset="284" max-vertical-offset="1060">
+            <state line="42" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1060">
               <folding />
             </state>
           </provider>
@@ -66,8 +66,8 @@
         <option value="$PROJECT_DIR$/Day02/keygen.py" />
         <option value="$PROJECT_DIR$/Day02/xor.py" />
         <option value="$PROJECT_DIR$/Day02/__init__.py" />
-        <option value="$PROJECT_DIR$/Day02/xor_server.py" />
         <option value="$PROJECT_DIR$/Day02/otp_attack.py" />
+        <option value="$PROJECT_DIR$/Day02/xor_server.py" />
       </list>
     </option>
   </component>
@@ -533,19 +533,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02/xor_server.py">
+    <entry file="file://$PROJECT_DIR$/Day02/otp_attack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
-          <folding>
-            <element signature="e#43#80#0" expanded="true" />
-          </folding>
+        <state line="42" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1060">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day02/otp_attack.py">
+    <entry file="file://$PROJECT_DIR$/Day02/xor_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.73544973" vertical-offset="284" max-vertical-offset="1060">
-          <folding />
+        <state line="10" column="30" selection-start="253" selection-end="253" vertical-scroll-proportion="0.26455027" vertical-offset="0" max-vertical-offset="760">
+          <folding>
+            <element signature="e#43#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
