@@ -1,3 +1,8 @@
+###############################################
+## Attack OTP when know about MSG and CIPHER ##
+## Send msg to server and receive cipher     ##
+###############################################
+
 from socket import *
 
 serverName = '127.0.0.1'

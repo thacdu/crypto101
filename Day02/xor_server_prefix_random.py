@@ -1,6 +1,7 @@
 '''
 Server running OTP with reused key
 Pattern of pre-processing msg: prefix + msg + suffix
+Note: prefix and suffix random
 '''
 
 from xor_same_len import xor_same_len
@@ -9,9 +10,6 @@ from keygen import key_gen
 from socket import *
 
 key = key_gen(randint(10, 100))
-prefix = key_gen(randint(10, 50))
-suffix = key_gen(randint(10, 50))
-
 
 print 'Key: ' + key.encode('hex')
 
@@ -30,6 +28,8 @@ def make_same_len(key, length):
 
 while 1:
     msg, clientAddr = servSocket.recvfrom(2048)
+    prefix = key_gen(randint(10, 50))
+    suffix = key_gen(randint(10, 50))
     msg = prefix + msg + suffix
     cipher = xor_same_len(msg, make_same_len(key, len(msg)))
     servSocket.sendto(cipher.encode('hex'), clientAddr)

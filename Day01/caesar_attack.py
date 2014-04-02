@@ -1,6 +1,5 @@
 
-cipher = 'MNUSBOHALSMNUSZIIFCMB'
-cipher2 = 'owdugewlglzwzwdd'
+cipher = 'lbhunirtbbqgvzrgbcngvpvcngrgurjuvgrungpbagrfgpelgbtencul'
 
 def caesar_decrypt(alphabet, cipher, key):
     return ''.join(alphabet [(alphabet.index(i) - key) % 26] for i in cipher)
@@ -18,4 +17,3 @@ def caesar_attack(cipher):
 
 if __name__ == '__main__':
     caesar_attack(cipher.lower())
-    caesar_attack(cipher2.lower())
